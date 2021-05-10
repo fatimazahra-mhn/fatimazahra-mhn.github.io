@@ -1,0 +1,22 @@
+h1,h2 {
+    text-align: center;
+}
+.box1{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #1f71d4 ;
+}
+#b1{
+  background-color: #d99694;   
+}
+#b2 {
+  background-color:#c4bd97;
+  margin-top: 82px; 
+  margin-left: 82px; 
+}
+#b3 {
+  background-color:#558ed5; 
+  margin-top: 164px;
+  margin-left: 164px;
+}

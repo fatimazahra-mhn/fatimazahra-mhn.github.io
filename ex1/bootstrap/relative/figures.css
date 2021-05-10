@@ -1,0 +1,16 @@
+
+#b1 , #c1 , #b21 , #b11{
+    background-color: #d99694;
+    border: rgb(30, 28, 194) 2px solid;
+}
+#b2, #c2, #b12, #b22{
+    background-color: #c4bd97;
+    border: rgb(30, 28, 194) 2px solid;
+}
+#b3, #c3, #b13, #b23{
+    background-color: #558ed5;
+    border: rgb(30, 28, 194) 2px solid;
+}
+#b11{
+    width: 220px;
+}

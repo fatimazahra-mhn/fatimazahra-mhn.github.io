@@ -1,0 +1,124 @@
+p{
+    text-align: center;
+}
+.tete {
+    height: 80px;
+    width: 97%;
+    background-color: #558ed5;
+    position: relative;
+    border: rgb(18, 18, 73) 2px solid;
+}
+.s0 {
+    height: 50px;
+    width: 97%;
+    background-color: #7e976f;
+    position: relative;
+    top: 4px;
+    border: rgb(18, 18, 73) 2px solid;
+}
+.s1 {
+    height: 200px;
+    width: 22%;
+    background-color: rgb(132, 183, 241);
+    border: rgb(18, 18, 73) 2px solid;
+    margin-top: 8px;
+    position: relative;
+}
+.s2 {
+    height: 200px;
+    width: 22%;
+    background-color: rgb(253, 192, 245);
+    border: rgb(18, 18, 73) 2px solid;
+    margin-left: 25%;
+    bottom: 203px;
+    position: relative;
+}
+.s3 {
+    height: 200px;
+    width: 22%;
+    background-color: rgb(142, 189, 150);
+    border: rgb(18, 18, 73) 2px solid;
+    margin-left: 50%;
+    bottom: 408px;
+    position: relative;
+}
+.s4 {
+    height: 200px;
+    width: 22%;
+    background-color: rgb(235, 137, 137);
+    border: rgb(18, 18, 73) 2px solid;
+    margin-left: 75%;
+    bottom: 612px;
+    position: relative;
+}
+.s5 {
+    height: 200px;
+    width: 47%;
+    background-color: rgb(97, 117, 204);
+    border: rgb(18, 18, 73) 2px solid;
+    bottom: 608px;
+    position: relative;
+}
+.s6 {
+    height: 200px;
+    width: 47%;
+    background-color: rgb(97, 117, 204);
+    border: rgb(18, 18, 73) 2px solid;
+    margin-left: 50%;
+    bottom: 812px;
+    position: relative;
+}
+.pied {
+    height: 50px;
+    width: 97%;
+    background-color: #c187c9;
+    position: relative;
+    bottom: 802px;
+    border: rgb(18, 18, 73) 2px solid;
+}
+@media(min-width: 500px) and (max-width: 1000px){
+    .s1,.s2,.s3,.s4{
+        height: 100px;
+        width: 47%;
+        border: rgb(18, 18, 73) 2px solid;
+        position: relative;
+    }
+    .s1 {
+        margin-top: 8px;
+    }
+    .s2 {
+        margin-left: 50%;
+        bottom: 104px;
+    }
+    .s3 {
+        bottom: 100px;
+        margin-left: 0%;
+    }
+    .s4 {
+        margin-left: 50%;
+        bottom: 204px;
+    }
+    .s5 {
+        height: 100px;
+        width: 97%;
+        bottom: 200px;
+    }
+    .s6 {
+        height: 100px;
+        width: 97%;
+        margin-left: 0%;
+        bottom: 196px;
+    }
+    .pied {
+        bottom: 192px;
+    }
+}
+@media(max-width :500px){
+    .tete,.s1,.s2,.s3,.s4,.s5,.s6,.pied{
+        height: 50px;
+        width: 97%;
+        margin-left: 0px;
+        bottom: 0px;
+        margin-top: 2px;
+    }
+}
